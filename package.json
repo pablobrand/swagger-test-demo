@@ -1,0 +1,20 @@
+{
+  "name": "swagger-sample",
+  "version": "1.0.0",
+  "description": "A sample Node.js project with Swagger documentation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-swagger": "swagger-cli bundle -o swagger.json -t json swaggerConfig.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "swagger-cli": "^4.0.4"
+  },
+  "author": "",
+  "license": "MIT"
+}
